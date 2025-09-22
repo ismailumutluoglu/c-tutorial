@@ -6,12 +6,12 @@ int main()
     int age;
     char name[100];
 
-    printf("How old are you ? ");
-    scanf("%d", &age);
-
-    printf("What is your name ?");
+    printf("What is your name : ");
     scanf("%s", name);
 
-    printf("Your name is : %s\tYour age is : %d", name, age);
+    printf("How old are you ?");
+    scanf("%d", &age);
+
+    printf("My name is : %s\tMy age is : %d", name, age);
     return 0;
 }
